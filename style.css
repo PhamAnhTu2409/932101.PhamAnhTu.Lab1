@@ -1,112 +1,84 @@
-
-h1 
-{   
-	margin: 0px 0px 10px 10px;
+h1 {
+margin : 0 0 10px 10px;
 }
-h2
-{
-	margin-left:10px;
-	word-spacing: 10px;
-  
+h2 {
+margin-left : 10px;
+word-spacing : 10px;
 }
-h3 
-{ 
-	color:white; 
-	font-family: Arial; 
-	font-size: 11pt;
-	margin:10px 0px 5px 10px;
+h3 {
+color : white;
+font-family : Arial;
+font-size : 11pt;
+margin : 10px 0 5px 10px;
 }
-
-p
-{
-	font-family: Times New Roman; 
-	font-size: 10pt;
-	color:white;
-	margin:0px 0px 5px 10px;
+p {
+font-family : "Times New Roman";
+font-size : 10pt;
+color : white;
+margin : 0 0 5px 10px;
 }
-li
-{
-	font-size:15px;
-	color:white;
-	margin-left:10px;
+li {
+font-size : 15px;
+color : white;
+margin-left : 10px;
 }
-li:nth-child(2) 
-{
-	letter-spacing: 5px;
-	color: aqua;
+li:nth-child(2) {
+letter-spacing : 5px;
+color : aqua;
 }
-td
-{
-	vertical-align:bottom;
-	width: 30px;
-	height:20px;
-	border: solid 1px silver;
-	text-align:center;
+td {
+vertical-align : bottom;
+width : 30px;
+height : 20px;
+border : silver solid 1px;
+text-align : center;
 }
-div *
-{
-    background-color: blue;
+div * {
+background-color : blue;
 }
-
-
-#header
-{
-	
-	height: 25px;
-	background-color: green;
+#header {
+height : 25px;
+background-color : green;
 }
-
-#content
-{
-	margin: auto;
-	height: auto;
-	width: 400px; 
-	background-color: blue;  
+#content {
+margin : auto;
+height : auto;
+width : 400px;
+background-color : blue;
 }
-
-#footer
-{
-	height: 25px;
-	background-color: green;
+#footer {
+height : 25px;
+background-color : green;
 }
-
-.square
-{
-	float:left;
-	margin:10px;
-	width: 70px;
-	height:70px;
-	border: 5px solid white;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 0px; 
-	border-bottom-right-radius: 10px; 
-	border-bottom-left-radius: 0px; 
+.square {
+float : left;
+margin : 10px;
+width : 70px;
+height : 70px;
+border : white solid 5px;
+border-top-left-radius : 10px;
+border-top-right-radius : 0;
+border-bottom-right-radius : 10px;
+border-bottom-left-radius : 0;
 }
-
-.block1 
-{
-	color: White;
-	font-size:15px ;
-	text-align:center;
+.block1 {
+color : white;
+font-size : 15px;
+text-align : center;
 }
-
-.block2 
-{
-	color: white;
-	font-size:30px ;
-	font-family:Arial;
+.block2 {
+color : white;
+font-size : 30px;
+font-family : Arial;
 }
-
-.block3 
-{
-	color: white;
-	font-size:12px ;
-	font-family:Arial;
+.block3 {
+color : white;
+font-size : 12px;
+font-family : Arial;
 }
-.brd 
-{
-	border: 1px;
-	border-color:white;
-	padding:1px;
-	border-style: solid;	
+.brd {
+border : 1px;
+border-color : white;
+padding : 1px;
+border-style : solid;
 }
